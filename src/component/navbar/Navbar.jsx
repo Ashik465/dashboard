@@ -39,7 +39,7 @@ const Navbar = () => {
           </h3>
           <img src={dot} alt="" />
         </div>
-        <div className="relative  hidden  xl:flex">
+        <div className="relative  hidden  xl:flex ml-20">
           <div className="w-96">
             <input
               className="rounded-full p-4 pl-14 mx-4 w-full "
@@ -55,7 +55,7 @@ const Navbar = () => {
 
         {/* end part */}
 
-        <div className="flex gap-4 items-center ml-8">
+        <div className="flex gap-4 items-center ml-24">
           <img src={user} alt="" />
 
           <h3 className="text-slate-500 text-xs font-bold leading-normal whitespace-nowrap hidden  xl:flex">
