@@ -8,9 +8,18 @@ const Dashboard = () => {
         <div className="bg-gray-100">
              <div className=" grid grid-cols-8 container mx-auto">
             
-            <LeftSide></LeftSide>
-            <MiddleSide></MiddleSide>
-            <div className="col-span-6 "><RightSide></RightSide></div>
+            <div className=" hidden lg:block">
+               <LeftSide></LeftSide>  
+            </div>
+            <div className=" hidden lg:block">
+               <MiddleSide></MiddleSide>
+            </div>
+
+
+
+           
+           
+            <div className="md:col-span-6 col-span-8 overflow-y-scroll w-full "><RightSide></RightSide></div>
             
         </div>
         </div>

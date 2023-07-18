@@ -44,7 +44,7 @@ import last9 from '../../../assets/right-side/last9.png'
 const RightSide = () => {
     return (
         <>
-            <div className='ml-8 border border-gray-200 rounded-lg  mt-5'>
+            <div className='ml-8 border border-gray-200 rounded-lg  mt-5 '>
             {/* right navbar  */}
 
             <div className="flex  gap-10  p-3 border-b-[1px] border-gray-200 ">
