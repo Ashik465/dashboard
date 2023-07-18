@@ -1,5 +1,6 @@
 import LeftSide from "../leftSide/LeftSide";
 import MiddleSide from "../middleSide/MiddleSide";
+import RightSide from "../rightSide/RightSide";
 
 
 const Dashboard = () => {
@@ -9,6 +10,8 @@ const Dashboard = () => {
             
             <LeftSide></LeftSide>
             <MiddleSide></MiddleSide>
+            <div className="col-span-6 "><RightSide></RightSide></div>
+            
         </div>
         </div>
        
