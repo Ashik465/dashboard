@@ -11,7 +11,7 @@ function App() {
     <>
      <Navbar></Navbar>
      <Dashboard></Dashboard>
-     <h1>hello world </h1>
+   
       
     
     </>
