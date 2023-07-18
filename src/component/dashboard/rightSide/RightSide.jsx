@@ -101,7 +101,7 @@ const RightSide = () => {
 
                <div>
          {/* top */}
-            <div className='flex  items-center bg-white p-3 justify-between relative mt-12'>
+            <div className='flex  items-center bg-white p-3 justify-between relative mt-12 '>
             <div className="w-0.5 h-7 absolute left-0   bg-violet-600 rounded" />
 
                 <div className='flex  items-center gap-4 '>

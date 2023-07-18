@@ -112,7 +112,7 @@ const MiddleSide = () => {
         </div>
 
         {/* bottom section */}
-        <div className="flex items-center justify-center gap-2 rounded-3xl border border-gray-200 p-2 mt-72" >
+        <div className="flex items-center justify-center gap-1 rounded-3xl border border-gray-200 p-2 mt-72" >
  
          <img src={bottom1} alt="" />
          <img src={bottom2} alt="" />

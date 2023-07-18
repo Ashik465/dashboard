@@ -19,7 +19,7 @@ const Dashboard = () => {
 
            
            
-            <div className="md:col-span-6 col-span-8 overflow-y-scroll w-full "><RightSide></RightSide></div>
+            <div className="md:col-span-6 col-span-8 overflow-y-scroll md:overflow-visible w-full "><RightSide></RightSide></div>
             
         </div>
         </div>

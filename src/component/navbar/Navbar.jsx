@@ -55,7 +55,7 @@ const Navbar = () => {
 
         {/* end part */}
 
-        <div className="flex gap-4 items-center ml-24">
+        <div className="flex gap-4 items-center ml-8">
           <img src={user} alt="" />
 
           <h3 className="text-slate-500 text-xs font-bold leading-normal whitespace-nowrap hidden  xl:flex">
