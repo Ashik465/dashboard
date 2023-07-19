@@ -28,6 +28,9 @@ const LeftSide = () => {
             </div>
             <div className="w-12 h-12 p-2.5 bg-white rounded-full shadow justify-center items-center inline-flex">
               <div className="w-7 h-7 relative flex-col justify-start items-start flex">
+              <div className="w-7 h-7 relative">
+  <div className="w-2.5 h-2.5 -right-2 -top-3 absolute bg-blue-600 rounded-md" />
+</div>
                 <img className="" src={icon3} />
               </div>
             </div>
