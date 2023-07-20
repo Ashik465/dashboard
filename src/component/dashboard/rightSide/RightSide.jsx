@@ -95,7 +95,7 @@ const RightSide = () => {
 
             {/* main content */}
 
-            <div className='grid grid-cols-4 gap-10 p-3 relative'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 p-3 relative'>
 
              {/* 1st Colum  */}
 
@@ -541,7 +541,7 @@ const RightSide = () => {
   
     {/* share between 4rd and 5th $$$$$$$$$$$$$$$$$$$$$$*/} 
 
-    <div className='bg-white p-3  col-start-3 col-span-2 absolute left-10 bottom-60 '>
+    <div className='bg-white p-3  Xl:col-start-3 md:col-span-2 xl:absolute right-5 top-[500px] '>
 
 <div className='flex items-center justify-between'>
     <div className=' flex items-center gap-2'>
