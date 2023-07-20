@@ -40,6 +40,9 @@ import last6 from '../../../assets/right-side/last6.png'
 import last7 from '../../../assets/right-side/last7.png'
 import last8 from '../../../assets/right-side/last8.png'
 import last9 from '../../../assets/right-side/last9.png'
+import leftArrow from '../../../assets/right-side/leftarrow.png'
+import rightArrow from '../../../assets/right-side/rightarrow.png'
+import search2 from '../../../assets/right-side/search.png'
 
 const RightSide = () => {
     return (
@@ -48,29 +51,48 @@ const RightSide = () => {
             {/* right navbar  */}
 
             <div className="flex  gap-10  p-3 border-b-[1px] border-gray-200 ">
-<div className='flex gap-2 items-center justify-center'>
+<div className='md:flex hidden gap-2 items-center justify-center  '>
     <img src={top1} alt="" />
     <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">List Tasks</h3>
 </div>
+{/* mobile  */}
+<div className=" md:hidden w-10 h-10 p-1.5 bg-white rounded-full shadow justify-center items-center inline-flex">
+  <img className='' src={leftArrow} alt="" />
+</div>
+
+{/* end */}
+
 <div className='flex gap-2 items-center justify-center'>
     <img src={top2} alt="" />
-    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">List Tasks</h3>
+    <h3 className="text-center text-[#3361FF] text-xs font-bold leading-tight">Boards</h3>
 </div>
-<div className='flex gap-2 items-center justify-center'>
+
+{/* mobile */}
+<div className=" md:hidden w-10 h-10 p-1.5 bg-white rounded-full shadow justify-center items-center inline-flex">
+  <img className='' src={rightArrow} alt="" />
+</div>
+
+<div className=" md:hidden w-10 h-10 p-1.5 bg-white rounded-full shadow justify-center items-center inline-flex">
+  <img className='' src={search2} alt="" />
+</div>
+
+{/* end */}
+
+<div className='md:flex hidden gap-2 items-center justify-center'>
     <img src={top3} alt="" />
-    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">List Tasks</h3>
+    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">Calendar</h3>
 </div>
-<div className='flex gap-2 items-center justify-center'>
+<div className='md:flex hidden gap-2 items-center justify-center'>
     <img src={top4} alt="" />
-    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">List Tasks</h3>
+    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">Gantt</h3>
 </div>
-<div className='flex gap-2 items-center justify-center'>
+<div className='md:flex hidden gap-2 items-center justify-center'>
     <img src={top5} alt="" />
-    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">List Tasks</h3>
+    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">Timeline</h3>
 </div>
-<div className='flex gap-2 items-center justify-center'>
+<div className='md:flex hidden gap-2 items-center justify-center'>
     <img src={top6} alt="" />
-    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">List Tasks</h3>
+    <h3 className="text-center text-slate-400 text-xs font-bold leading-tight">Activity</h3>
 </div>
 
 
